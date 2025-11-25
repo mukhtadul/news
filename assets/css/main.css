@@ -126,7 +126,7 @@ ul {
   padding: 10px 0px;
 }
 .section_one {
-  padding: 20px 0px 10px;
+  padding: 20px 0px 0px;
 }
 
 .iot_img_two {
@@ -172,7 +172,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .tab_title {
@@ -219,5 +219,29 @@ ul {
   padding-left: 10px;
 }
 .section_two {
+  padding: 50px 0px 0px;
+}
+.single_content_row {
+  padding: 10px;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+.section_three {
+  padding: 50px 0px 0px;
+}
+.normal_card_wrap > a > img {
+  border-radius: 5px;
+}
+.section_four {
+  padding: 50px 0px 0px;
+}
+.section_five {
   padding: 50px 0px;
+}
+
+.section_six {
+  padding-bottom: 50px;
+}
+.section_six .single_content_row {
+  background: #000;
 }
