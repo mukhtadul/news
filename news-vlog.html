@@ -41,13 +41,21 @@
                     <li class=""><a href="#" class="">রাজনীতি</a></li>
                     <li class=""><a href="#" class="">রাশিফল</a></li>
                   </ul>
+                  <a
+                    class="navber_toggle_icon"
+                    data-bs-toggle="offcanvas"
+                    href="#offcanvasRight"
+                    role="button"
+                    aria-controls="offcanvasRight"
+                    ><i class="fa-solid fa-align-right"></i
+                  ></a>
                 </div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      <div class="small_header_coontainer">
+      <div class="small_header_coontainer scroll-x">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -56,7 +64,7 @@
                   <a href="#"> <i class="fa-solid fa-house"></i></a>
                 </li>
                 <li>
-                  <a href="#"> পশ্চিমবঙ্গ</a>
+                  <a href="./category.html"> পশ্চিমবঙ্গ</a>
                 </li>
                 <li>
                   <a href="#"> ভারত</a>
@@ -110,7 +118,7 @@
     <section class="news_vlog_section">
       <div class="container">
         <div class="row">
-          <div class="col-md-9">
+          <div class="col-md-7 col-lg-8">
             <div class="news_vlog__left">
               <div class="news_heading_wrap">
                 <h1 class="news_title_h1">
@@ -207,7 +215,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="news_cards normal_card_wrap">
                       <a href="#">
                         <img
@@ -222,7 +230,7 @@
                     </div>
                   </div>
 
-                  <div class="col-md-3">
+                  <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="news_cards normal_card_wrap">
                       <a href="#">
                         <img
@@ -237,7 +245,7 @@
                     </div>
                   </div>
 
-                  <div class="col-md-3">
+                  <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="news_cards normal_card_wrap">
                       <a href="#">
                         <img
@@ -252,7 +260,7 @@
                     </div>
                   </div>
 
-                  <div class="col-md-3">
+                  <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="news_cards normal_card_wrap">
                       <a href="#">
                         <img
@@ -271,7 +279,7 @@
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-5 col-lg-4">
             <div class="category_right">
               <div class="row">
                 <div class="col-md-12">
@@ -392,7 +400,7 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-12 col-md-4 col-lg-4 mb-4 mb-md-0">
             <div class="footer_content_wrapper">
               <img
                 src="./assets/images/logo.png.webp"
@@ -402,7 +410,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-sm-6 col-md-4 col-lg-4 mb-4 mb-sm-0">
             <div class="footer_content_wrapper">
               <h3 class="footer_title">Contact Us</h3>
               <ul class="footer_widget_wrapper">
@@ -422,7 +430,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-sm-6 col-md-4 col-lg-4">
             <div class="footer_content_wrapper">
               <h3 class="footer_title">Connect With Us</h3>
 
@@ -484,8 +492,31 @@
       </div>
     </footer>
 
+    <!-- offcanvas menu -->
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRight"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">
+          Offcanvas right
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">...</div>
+    </div>
     <!-- jquery -->
     <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <!-- bootstrap  -->
+    <script src="./assets/js/bootstrap.min.js"></script>
     <!-- main js -->
     <script src="./assets/js/main.js"></script>
   </body>

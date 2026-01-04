@@ -315,7 +315,7 @@ ul.footer_navlist > li > a {
   width: 100%;
   height: 100%;
   background: #0000007a;
-  z-index: 99;
+  z-index: 9;
 }
 
 .featured_wrap {
@@ -331,7 +331,7 @@ ul.footer_navlist > li > a {
   left: 0;
   width: 100%;
   padding: 0px 8px;
-  z-index: 100;
+  z-index: 10;
 }
 
 section.featured_section {
@@ -471,4 +471,19 @@ ul.artical_wrapper > li {
 .privacy_policy_section .para_stanza_wrap,
 .terms_section .para_stanza_wrap {
   background: transparent;
+}
+header {
+  position: sticky;
+  z-index: 99;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.category_card_wrap {
+  margin-bottom: 30px;
+}
+
+.category_right {
+  position: sticky;
+  top: 100px;
 }

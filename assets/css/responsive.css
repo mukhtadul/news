@@ -1,0 +1,132 @@
+.topright_primarywrap_container {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+a.navber_toggle_icon {
+  font-size: 25px;
+  display: none;
+}
+.scroll-x {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  /* Hide scrollbar */
+  -ms-overflow-style: none; /* IE & Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scroll-x::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+/* Laptop */
+@media (max-width: 991px) {
+  .container {
+    max-width: 95%;
+  }
+  .featured_wrap {
+    margin-bottom: 30px;
+  }
+
+  .section_five.ss-five .anw_img_text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .section_five.ss-five .anw_img_text_title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .footer_title {
+    font-size: 22px;
+    line-height: 31px;
+    margin-bottom: 12px;
+  }
+  ul.social_links_wrapper {
+    flex-wrap: wrap;
+  }
+  h1.news_title_h1 {
+    margin-bottom: 17px;
+    font-size: 20px;
+  }
+  .reporter_img {
+    width: 35px;
+    height: 35px;
+  }
+  .reporter_name {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  span.report_icon {
+    font-size: 12px;
+    margin-right: 6px;
+  }
+  .report_time {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .news_vlog_section .news_cards.normal_card_wrap {
+    margin-bottom: 20px;
+  }
+  .stanza_text {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .stanza_title {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 13px;
+  }
+  .information_section {
+    padding: 40px 0px;
+  }
+}
+@media (max-width: 767px) {
+  a.navber_toggle_icon {
+    display: block;
+  }
+  .primary_wrapper {
+    display: none;
+  }
+  .anw_img_text_title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .all_news_wrap > li > a {
+    gap: 0px;
+  }
+  .anw_img_text_wrap {
+    width: calc(100% - 105px);
+  }
+  .anw_img_wrap {
+    width: 90px;
+  }
+  footer {
+    padding: 35px 0px;
+  }
+  .category_section {
+    padding: 30px 0px;
+  }
+  .artical_images {
+    max-height: 300px;
+    object-fit: cover;
+  }
+  ul.artical_wrapper > li {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 575px) {
+  ul.footer_navlist {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
