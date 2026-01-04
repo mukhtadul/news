@@ -487,3 +487,17 @@ header {
   position: sticky;
   top: 100px;
 }
+
+img.offcanvas_logo {
+  width: 200px;
+}
+
+.offcanvas_menus > li > a {
+  font-size: 21px;
+}
+
+.offcanvas_menus > li {
+  margin-bottom: 10px;
+  background: #f3f3f3;
+  padding: 4px 5px;
+}
